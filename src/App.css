@@ -1,0 +1,17 @@
+#root {
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.mainContent{
+  padding: 200px;
+  height: 100vh;
+}
+
+@media screen and (max-width: 650px) {
+  .mainContent{
+    padding: 1rem;
+  }
+}
