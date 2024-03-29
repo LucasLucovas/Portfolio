@@ -11,28 +11,28 @@ const Contact = () => {
           <Link
               href="https://github.com/LucasLucovas"
               target={'_blank'}
-              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+              sx={{textDecoration: 'none', color: '#464646', margin: 2}}
             >
               <GitHubIcon sx={{fontSize: 54}}/>
           </Link>
           <Link
               href="https://www.linkedin.com/in/lucas-lucovas-87319a229/"
               target={'_blank'}
-              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+              sx={{textDecoration: 'none', color: '#6994e4', margin: 2}}
             >
               <LinkedInIcon sx={{fontSize: 54}}/>
           </Link>
           <Link
             variant="plain"
             href={"mailto:lucaslucovas@gmail.com?Subject=Hola%20quisiera%20contactar%20contigo!"}
-            sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+            sx={{textDecoration: 'none', color: '#67869b', margin: 2}}
             >
               <EmailIcon sx={{fontSize: 54}}/>
           </Link>
           <Link
               href=""
               target={'_blank'}
-              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+              sx={{textDecoration: 'none', color: '#98c5a1', margin: 2}}
             >
               <WhatsAppIcon sx={{fontSize: 54}}/>
           </Link>
