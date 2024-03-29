@@ -9,12 +9,33 @@ const Contact = () => {
     <>
       <h2>Social Media</h2>
           <Link
-              component="button"
-              variant="body2"
+              href="https://github.com/LucasLucovas"
+              target={'_blank'}
+              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
             >
-              Button Link
+              <GitHubIcon sx={{fontSize: 54}}/>
           </Link>
-      <footer>©2023 Lucas Lucovas</footer>
+          <Link
+              href="https://www.linkedin.com/in/lucas-lucovas-87319a229/"
+              target={'_blank'}
+              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+            >
+              <LinkedInIcon sx={{fontSize: 54}}/>
+          </Link>
+          <Link
+            variant="plain"
+            href={"mailto:lucaslucovas@gmail.com?Subject=Hola%20quisiera%20contactar%20contigo!"}
+            sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+            >
+              <EmailIcon sx={{fontSize: 54}}/>
+          </Link>
+          <Link
+              href=""
+              target={'_blank'}
+              sx={{textDecoration: 'none', color: '#141414', margin: 2}}
+            >
+              <WhatsAppIcon sx={{fontSize: 54}}/>
+          </Link>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { Stack } from '@mui/joy'
+import { Stack, Typography } from '@mui/joy'
 import './App.css'
 import NavBar from './components/NavBar'
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='mainContent'>
-      <h2>Lucas Lucovas</h2>
+      <Typography variant='h1' fontSize={26} margin={2}>Lucas Lucovas</Typography>
       <NavBar/>
     </div>
   )
